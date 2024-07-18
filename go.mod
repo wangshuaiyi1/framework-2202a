@@ -2,9 +2,16 @@ module github.com/wangshuaiyi1/framework-2202a
 
 go 1.21
 
-require google.golang.org/grpc v1.65.0
+require (
+	google.golang.org/grpc v1.65.0
+	gorm.io/driver/mysql v1.5.7
+	gorm.io/gorm v1.25.11
+)
 
 require (
+	github.com/go-sql-driver/mysql v1.7.0 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
