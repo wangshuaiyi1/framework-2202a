@@ -1,4 +1,4 @@
-module framework
+module github.com/wangshuaiyi1/framework-2202a
 
 go 1.21
 
